@@ -1,9 +1,5 @@
 {
   "homepage": "https://AlokeKhan.github.io/sfaa-career-framework",
-
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-
   "name": "sfaa-career-framework",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
